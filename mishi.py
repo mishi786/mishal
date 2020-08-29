@@ -58,16 +58,16 @@ def hopss(z):
 		time.sleep(0.1)
 ##### LOGO #####
 banner = """
-\033[1;92m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;92m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;92m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;92m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;92m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;92m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/                                               
+\033[1;92m___  ________ _____ _   _   ___   _     
+\033[1;92m|  \/  |_   _/  ___| | | | / _ \ | |    
+\033[1;92m| .  . | | | \ `--.| |_| |/ /_\ \| |    
+\033[1;92m| |\/| | | |  `--. \  _  ||  _  || |    
+\033[1;92m| |  | |_| |_/\__/ / | | || | | || |____
+\033[1;92m\_|  |_/\___/\____/\_| |_/\_| |_/\_____/                                                
 \033[1;97m-----------------------------------------------
-\033[1;91m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;91m➣ Github  : https://github.com/muskanckg
-\033[1;91m➣ GANG    : CRAZY KING GANG
+\033[1;91m➣ OWNER   : MISHAL KHAN MISHI
+\033[1;91m➣ Github  : https://github.com/mishi786
+\033[1;91m➣ GANG    : NIGHT 007
 \033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
 \033[1;97m-----------------------------------------------"""
 # titik #
@@ -122,7 +122,7 @@ def menu():
 	print "[2] Clone With Pass Choice."
 	print "[3] Grabbing Tools."
 	print "[4] Auto Del Tools."
-	print "[5] Update CKG Tool."
+	print "[5] Update 007 Tool."
 	print "[6] Follow Me On Facebook."
 	print "[7] Logout"
 	print ('                  ')
@@ -138,12 +138,12 @@ def men():
 	elif rana =="2":
 	    os.system('clear')
 	    hamza('[!] Please Wait While Page Is Loding.')
-	    hopss('CKG-10%...')
-	    hopss('CKG-20%...')
-	    hopss('CKG-50%...')
-	    hopss('CKG-70%...')
-	    hopss('CKG-90%...')
-	    hopss('CKG-95%...')
+	    hopss('007-10%...')
+	    hopss('007-20%...')
+	    hopss('007-50%...')
+	    hopss('007-70%...')
+	    hopss('007-90%...')
+	    hopss('007-95%...')
 	    os.system('python2 .choice.py')
 	    time.sleep(1)
 	elif rana =="3":
