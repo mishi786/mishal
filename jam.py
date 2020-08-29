@@ -53,20 +53,17 @@ def hamza(z):
 		time.sleep(0.03)
 ##### LOGO #####
 banner = """
-\033[1;92m___  ____   _ _____ _   __  ___   _   _ 
-\033[1;92m|  \/  | | | /  ___| | / / / _ \ | \ | |
-\033[1;92m| .  . | | | \ `--.| |/ / / /_\ \|  \| |
-\033[1;92m| |\/| | | | |`--. \    \ |  _  || . ` |
-\033[1;92m| |  | | |_| /\__/ / |\  \| | | || |\  |
-\033[1;92m\_|  |_/\___/\____/\_| \_/\_| |_/\_| \_/
-                                                
+\033[1;92m___  ________ _____ _   _   ___   _     
+\033[1;92m|  \/  |_   _/  ___| | | | / _ \ | |    
+\033[1;92m| .  . | | | \ `--.| |_| |/ /_\ \| |    
+\033[1;92m| |\/| | | |  `--. \  _  ||  _  || |    
+\033[1;92m| |  | |_| |_/\__/ / | | || | | || |____
+\033[1;92m\_|  |_/\___/\____/\_| |_/\_| |_/\_____/                                                
 \033[1;97m-----------------------------------------------
-
-\033[1;91m➣ OWNER   : JAM SHAHRUKH X MUSKAN NOOR
-\033[1;91m➣ Github  : https://github.com/muskanckg
-\033[1;91m➣ GANG    : CRAZY KING GANG
+\033[1;91m➣ OWNER   : MISHAL KHAN MISHI
+\033[1;91m➣ Github  : https://github.com/mishi786
+\033[1;91m➣ GANG    : NIGHT 007
 \033[1;91m➣ Youtube : JAM SHAHRUKH TECHNICAL
-
 \033[1;97m-----------------------------------------------"""
 # titik #
 def tik():
@@ -103,7 +100,7 @@ def tlogin():
 	    tlogin()
 	try:
 		toket = open('login.txt','r')
-		os.system('python2 muskan.py')
+		os.system('python2 mishi.py')
 	except (KeyError,IOError):
 		methodlogin()
 	else:
@@ -138,7 +135,7 @@ def methodlogin():
 		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
-		os.system('python2 muskan.py')
+		os.system('python2 mishi.py')
 		
 	elif hos =="0":
 		exit()
@@ -149,11 +146,11 @@ def login():
 	os.system("clear")
 	try:
 		tb=open('login.txt', 'r')
-		os.system("python2 muskan.py")
+		os.system("python2 mishi.py")
 	except (KeyError,IOError):
 		os.system("clear")
 		print (banner)
-		hamza('[!] JAM X MUSKAN BRAND')
+		hamza('[!] MISHAL KHAN BRAND')
 		hamza('[!] Use a New Facebook Account To Login')
 		print'-------------------------------------'
 		iid=raw_input('[+] Number/Email: ')
@@ -170,7 +167,7 @@ def login():
 		    time.sleep(1)
 		    os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 		    os.system("clear")
-		    os.system("python2 muskan.py")
+		    os.system("python2 mishi.py")
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
 		        print ('[!] User Must Verify Account Before Login.')
