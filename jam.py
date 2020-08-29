@@ -78,7 +78,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="jam":
+	if username =="mishi":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -88,7 +88,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="muskan":
+	if passw =="mishi":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
